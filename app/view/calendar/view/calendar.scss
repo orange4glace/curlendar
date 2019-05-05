@@ -1,0 +1,32 @@
+.calendar {
+
+}
+
+.month {
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: darkcyan;
+  height: 90%;
+}
+
+.day-label-container {
+  width: 14.28571428571429%;
+  justify-content: center;
+}
+
+.day-label {
+  font-size: 13;
+}
+
+.day-container {
+  width: 14.28571428571429%;
+  background: grey;
+
+  &:last-child {
+    background: white;
+  }
+}
+
+.day {
+}
